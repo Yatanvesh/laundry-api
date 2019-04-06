@@ -1,0 +1,4 @@
+create table users(name varchar(50), email varchar(30),primary key(email), phone varchar(15), address varchar(100), gis varchar(100), passwordHash varchar(100) );
+create table orders(id serial, email varchar(30),primary key(email), weight varchar(30), services varchar(60), city varchar(30), special varchar(100),timeRange varchar(60) );
+
+create table orders(id serial, email varchar(30), orderjson varchar( 1000) );
