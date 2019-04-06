@@ -8,10 +8,11 @@ const knex = require('knex');
 const db = knex({
     client: 'pg',
     connection: {
-        host: '127.0.0.1',
-        user: "gerontius",
-        password: '',
-        database: 'laundry'
+        host: 'ec2-184-72-238-22.compute-1.amazonaws.com',
+        user: "vzrpabbzdskxvv",
+        password: 'e89810503eaa23983f0830e778b38c611414c745c3735cdb7fb93c98b77500c9',
+        database: 'd8frhdad0asndc',
+        port:'5432'
     }
 });
 
